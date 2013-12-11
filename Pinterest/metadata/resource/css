@@ -1,0 +1,13 @@
+{
+    "type": "cssresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "css",
+        "url": "resources/pins.css"
+    },
+    "designerId": "4b50f48e-a985-4d4e-9532-9a8a392b65e0"
+}

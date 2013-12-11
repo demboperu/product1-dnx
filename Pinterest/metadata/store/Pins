@@ -1,0 +1,14 @@
+{
+    "type": "Ext.data.Store",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Pins",
+        "model": "Pin",
+        "storeId": "Pins"
+    },
+    "designerId": "735dc9d2-a951-4059-94fb-d49b4bbdfbcb"
+}

@@ -1,0 +1,98 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Pinterest",
+        "models": [
+            "User",
+            "Pin"
+        ],
+        "stores": [
+            "Users",
+            "Pins"
+        ],
+        "views": [
+            "Pinterest"
+        ]
+    },
+    "designerId": "a8f712c0-7e69-46a1-bccb-6ec6f3242870",
+    "cn": [
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|params": [
+                    "record"
+                ],
+                "fn": "showPins",
+                "implHandler": [
+                    "record = this.getUsersStore().findRecord('username', record);\r",
+                    "this.getPins().bind(record, this.getPinsStore());"
+                ]
+            },
+            "designerId": "d70599b6-649d-45a3-af8c-ba99c0f30440"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "pins",
+                "selector": "#pins"
+            },
+            "designerId": "24b5183d-0253-4c33-b236-761988b97fc8"
+        },
+        {
+            "type": "fixedfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|params": [
+                    "application"
+                ],
+                "fn": "init",
+                "implHandler": [
+                    "this.control({\r",
+                    "    '#loginBtn' : {\r",
+                    "        click : function ( button ) {\r",
+                    "            var view = this.getViewport();\r",
+                    "            var name = view.down('#email').getValue();\r",
+                    "            view.layout.setActiveItem(1);\r",
+                    "            view.down('#profileBtn').setText(name);\r",
+                    "            this.showPins(name);\r",
+                    "        }\r",
+                    "    }\r",
+                    "});"
+                ]
+            },
+            "designerId": "fef48211-b7ad-4369-af2e-1465f6e0868a"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "viewport",
+                "selector": "#pinterest"
+            },
+            "designerId": "edc056a6-12ed-46f0-8fc8-add352406b4e"
+        }
+    ]
+}

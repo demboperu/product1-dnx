@@ -1,0 +1,413 @@
+{
+    "type": "Ext.container.Viewport",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "designer|userClassName": "Pinterest",
+        "itemId": "pinterest",
+        "layout": "card",
+        "padding": ""
+    },
+    "designerId": "cd54b599-4130-44ea-b01d-c3de5954d837",
+    "cn": [
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|align": "center",
+                "itemId": "loginView",
+                "layout": "vbox"
+            },
+            "designerId": "9d9b975e-a297-4f3b-a82e-cc47a0f67a59",
+            "cn": [
+                {
+                    "type": "Ext.container.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "itemId": "title",
+                        "layout|flex": 1,
+                        "layout|margins": "40 0 0 0 "
+                    },
+                    "designerId": "ddbd1838-9fac-49b1-926f-093dd68610a8",
+                    "cn": [
+                        {
+                            "type": "Ext.Img",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "height": 78,
+                                "itemId": "pinterestImg",
+                                "src": "resources/pinterest-logo.jpg",
+                                "width": 215
+                            },
+                            "designerId": "99da8efa-046d-433f-8130-4689ff40acd9"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.container.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "html": "<h1>Save all the stuff you love (recipes! articles! travel ideas!) right here on Pinterest. </h1>",
+                        "itemId": "subtitle",
+                        "layout|flex": 1
+                    },
+                    "configAlternates": {
+                        "html": "string"
+                    },
+                    "designerId": "559d821f-47d5-405f-aff4-3bb35282e7a1"
+                },
+                {
+                    "type": "Ext.container.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "itemId": "loginDiv",
+                        "layout|flex": 2
+                    },
+                    "designerId": "6c2740ee-5b99-4283-bae6-2ed44226b23d",
+                    "cn": [
+                        {
+                            "type": "Ext.form.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "itemId": "loginLabel",
+                                "style": [
+                                    "{color : \"#525252\", fontSize:\"23px\"}"
+                                ],
+                                "text": "Log in to Pinterest"
+                            },
+                            "designerId": "8ec2058f-3aa6-4851-af8e-ea1c9c28bdad"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "emptyText": "Email",
+                                "fieldLabel": null,
+                                "itemId": "email",
+                                "margin": "20 0 0 0",
+                                "padding": null
+                            },
+                            "designerId": "0df8d7e7-8218-49ce-9ba6-8d86bbe69342"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "emptyText": "Password",
+                                "fieldLabel": null,
+                                "inputType": "password",
+                                "itemId": "password",
+                                "margin": "20 0 0 0"
+                            },
+                            "designerId": "dce9aa82-bf9c-499e-a42e-bc6399d0f3cf"
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "iconAlign": null,
+                                "itemId": "loginBtn",
+                                "margin": "20 0 0 75",
+                                "padding": "5 10 5 10",
+                                "text": "Login"
+                            },
+                            "designerId": "ad86d40c-3d0c-427c-8e26-78d22fe61747"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|align": "stretch",
+                "itemId": "contentView",
+                "layout": "vbox"
+            },
+            "designerId": "cf888608-7466-4394-b562-1c3412779166",
+            "cn": [
+                {
+                    "type": "Ext.container.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "middle",
+                        "container|pack": "center",
+                        "height": null,
+                        "itemId": "toolBar",
+                        "layout": "hbox"
+                    },
+                    "designerId": "9d854bb0-82f8-48b9-9223-6f5cb6312c0c",
+                    "cn": [
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "iconCls": null,
+                                "itemId": "topics",
+                                "layout|flex": null,
+                                "layout|margins": "0 20 0 50",
+                                "margin": null,
+                                "style": [
+                                    "{borderRadius:\"3px\"}"
+                                ],
+                                "text": "- - ",
+                                "width": 30
+                            },
+                            "designerId": "4f6759ae-6f8a-4811-9441-84981131dd03"
+                        },
+                        {
+                            "type": "Ext.form.field.Text",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "emptyText": "What are you into?",
+                                "fieldLabel": null,
+                                "height": null,
+                                "itemId": "searchBox",
+                                "style": [
+                                    "{borderRadius:\"5px\"}"
+                                ],
+                                "width": 174
+                            },
+                            "designerId": "afc31e1b-1f05-4da3-926e-5aa00957fd1a"
+                        },
+                        {
+                            "type": "Ext.Img",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "defaultAlign": "center",
+                                "height": 41,
+                                "itemId": "titleImg",
+                                "layout|flex": null,
+                                "layout|margins": "0 200 0 200",
+                                "margin": null,
+                                "src": "resources/pinterest-logo.jpg",
+                                "width": 102
+                            },
+                            "designerId": "e20cb705-2edc-4afa-8ae2-98cd5092b9b3"
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "itemId": "addBtn",
+                                "layout|flex": null,
+                                "layout|margins": "0 20 0 0",
+                                "text": "+"
+                            },
+                            "designerId": "b9f7b2ae-ddbd-46f9-abaf-223a6574877a"
+                        },
+                        {
+                            "type": "Ext.Img",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "border": 100,
+                                "height": 21,
+                                "itemId": "profileImg",
+                                "layout|flex": null,
+                                "src": "resources/profile.jpg",
+                                "width": 20
+                            },
+                            "designerId": "4c6b4c26-f867-46b8-b9ee-9b0ea2e4bb21"
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "itemId": "profileBtn",
+                                "layout|flex": null,
+                                "text": "Diana"
+                            },
+                            "designerId": "ac4da5e2-3f13-401d-9e01-4efd7343b976"
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "itemId": "pinBtn",
+                                "layout|flex": null,
+                                "text": "*"
+                            },
+                            "designerId": "0932b3f5-9309-42a6-a1c8-f803531b3b2b"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "itemId": "pins",
+                        "layout": "fit",
+                        "layout|flex": 1,
+                        "title": null
+                    },
+                    "designerId": "8d8a0642-ea8b-45a2-ab61-a0fb4aa4eec4",
+                    "cn": [
+                        {
+                            "type": "Ext.view.View",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "autoScroll": true,
+                                "cls": "pin-list",
+                                "componentLayout": null,
+                                "dock": null,
+                                "itemId": "pinsView",
+                                "itemSelector": ".pin",
+                                "store": "Pins",
+                                "trackOver": true
+                            },
+                            "configAlternates": {
+                                "componentLayout": "string"
+                            },
+                            "designerId": "770e1aae-632e-43dc-9e0b-4b96ed96aa8a",
+                            "cn": [
+                                {
+                                    "type": "Ext.XTemplate",
+                                    "reference": {
+                                        "name": "tpl",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|displayName": "tpl",
+                                        "implHandler": [
+                                            "<style>\r",
+                                            "   \r",
+                                            "    .pinCls{\r",
+                                            "        margin:40px 10px;\r",
+                                            "        display: inline-block;\r",
+                                            "        border: 1px solid gray;\r",
+                                            "        padding:10px;\r",
+                                            "        vertical-align:top;\r",
+                                            "    }\r",
+                                            "     .firstCol{\r",
+                                            "        margin-left:25%;\r",
+                                            "    }\r",
+                                            "</style>\r",
+                                            "<tpl for=\".\">\r",
+                                            "    <div class=\"pinCls {[xindex % 4 === 1 ? \"firstCol\" : \"\"]}\">\r",
+                                            "        <img src=\"data/{img}\"/>\r",
+                                            "        <div class=\"title\">{title}</div>\r",
+                                            "        <div class=\"autor\">\r",
+                                            "            <img src=\"data/{parent.img}\" height=\"40px\" width=\"40px\"/>\r",
+                                            "            <div class=\"name\">{parent.username}</div>\r",
+                                            "        </div>\r",
+                                            "    </div>\r",
+                                            "</tpl>"
+                                        ]
+                                    },
+                                    "designerId": "b711cb2a-096c-42d7-bedc-45e8cee86344"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "basicfunction",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|params": [
+                                    "record",
+                                    "store"
+                                ],
+                                "fn": "bind",
+                                "implHandler": [
+                                    "store.loadData(record.getAssociatedData().pins || []);\r",
+                                    "this.child('#pinsView').bindStore(store);\r",
+                                    ""
+                                ]
+                            },
+                            "designerId": "6714db75-d5e1-4bd2-b9b8-4305abc4f32f"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

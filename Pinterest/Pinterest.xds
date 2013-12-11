@@ -1,0 +1,56 @@
+{
+    "name": "Pinterest",
+    "settings": {
+        "cmd": {
+            "license": "gpl",
+            "cmdVersion": "4.0.1.45",
+            "frameworkVersion": "4.2.1.883"
+        },
+        "canvasControls": {
+            "viewportSize": {
+                "name": "Auto Expand",
+                "builtIn": true,
+                "height": null,
+                "width": null
+            }
+        },
+        "urlPrefix": "http://localhost/Pinterest",
+        "exportPath": "",
+        "spacesToIndent": 4,
+        "sdkPath": "",
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true
+    },
+    "xdsVersion": "3.0.0",
+    "xdsBuild": 1337,
+    "schemaVersion": 1,
+    "upgradeVersion": 300000000003,
+    "framework": "ext42",
+    "viewOrderMap": {
+        "view": [
+            "cd54b599-4130-44ea-b01d-c3de5954d837"
+        ],
+        "store": [
+            "b59ca0c2-2c86-4585-b0a6-c3877e024b5b",
+            "735dc9d2-a951-4059-94fb-d49b4bbdfbcb"
+        ],
+        "controller": [
+            "a8f712c0-7e69-46a1-bccb-6ec6f3242870"
+        ],
+        "model": [
+            "d64c7cf3-1a04-4b97-be8b-067b55fc256d",
+            "d13d200c-3025-4453-9484-bbab67aa73cc"
+        ],
+        "resource": [
+            "e616a40c-66aa-407d-9e28-7f083c95db53",
+            "2535aaf6-1e33-4539-8dbf-2b3640e64b22",
+            "4b50f48e-a985-4d4e-9532-9a8a392b65e0"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}
